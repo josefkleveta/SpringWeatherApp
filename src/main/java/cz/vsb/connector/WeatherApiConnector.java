@@ -9,11 +9,11 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public class WeatherApiConnector {
-    //https://api.weatherapi.com/v1/current.json?key=2f3d5a0c8d0a4dd7986132149232003&q=London
+
 
     private static String baseUrl = "https://api.weatherapi.com/";
     private static String urlParameters = "v1/current.json?key=";
-    private static String apiKey = "2f3d5a0c8d0a4dd7986132149232003";
+    private static String apiKey = "2003";
     private static String url = baseUrl + urlParameters + apiKey + "&q=";
 
     public WeatherApiDto getWeatherForCity(City city) {
